@@ -1,0 +1,40 @@
+﻿
+.\school-management.exe : [39
+732:0330/102515.155:ERROR:cac
+he_util_win.cc(20)] Unable 
+to move the cache: Access is 
+denied. (0x5)
+At line:1 char:1
++ .\school-management.exe 
+2>&1 | Out-File -FilePath 
+"exe_crash.log" -En ...
++ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo           
+   : NotSpecified: ([39732:  
+  0330/102...s denied. (0x   
+ 5):String) [], RemoteExc    
+eption
+    + FullyQualifiedErrorId  
+   : NativeCommandError
+ 
+[39732:0330/102515.155:ERROR:
+cache_util_win.cc(20)] 
+Unable to move the cache: 
+Access is denied. (0x5)
+[39732:0330/102515.158:ERROR:
+disk_cache.cc(208)] Unable 
+to create cache
+[39732:0330/102515.158:ERROR:
+gpu_disk_cache.cc(708)] Gpu 
+Cache Creation failed: -2
+[39732:0330/102515.158:ERROR:
+disk_cache.cc(208)] Unable 
+to create cache
+[39732:0330/102515.158:ERROR:
+gpu_disk_cache.cc(708)] Gpu 
+Cache Creation failed: -2
+[IPC] students:getAll found 10 rows
+[IPC] students:getAll total count: 10
+[IPC] students:getAll found 5 rows
+[IPC] students:getAll total count: 10
